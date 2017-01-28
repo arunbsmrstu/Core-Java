@@ -1,9 +1,7 @@
-class Veriable{
+class PrimitiveTypesMinMax{
 	
 	public static void main(String as[]){
-		int number=10;
-		number=number+1;
-		System.out.println("Sumation of number : "+number);
+		System.out.println("int(min) = "+Integer.MIN_VALUE);
 	}
 
 }
