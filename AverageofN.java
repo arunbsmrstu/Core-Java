@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class AverageOfN{
 
 	public static void main(String as[]){
@@ -10,7 +11,7 @@ class AverageOfN{
 			sum+=i;
 		}
 		
-		average=(double)average/n;
+		average=(double)sum/(double)n;
 
 		System.out.println("Average : "+average);
 	}
