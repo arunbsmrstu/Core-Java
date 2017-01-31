@@ -12,6 +12,11 @@ class StringOperation{
 		String anotherStr="bangabandhu Sheikh Mujibur Rahman Science and Technology University";
 		System.out.println(str.equals(anotherStr));
 		System.out.println(str.equalsIgnoreCase(anotherStr));
+		
+		System.out.println("Use subdtring :"+str.substring(0,4));
+		System.out.println("Index of a :" +str.indexOf('a'));
+		System.out.println("Last index of a:" +str.lastIndexOf('a'));
+		System.out.println(str.endsWith("University"));
 
 	}
 
